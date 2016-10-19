@@ -5,7 +5,8 @@
 	<title>Document</title>	
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<!--<link rel="stylesheet" type="text/css" href="css/main.css">-->
+	<link rel="stylesheet" type="text/css" href="css/add.css">
 </head>
 <body>
 <!--top section-->
@@ -18,14 +19,16 @@
 			<li><a href="">О нас</a></li>
 			<li><a href="">Контакты</a></li>				
 		</nav>
-		<div class="search">&#128269;</div>
-		<select>
-			<option>+7 (3462) 555 308</option>
-			<option>+7 (3462) 444 222</option>
-		</select>
-		<button class="callme">Перезвоните мне</button>
+		<a href="" class="search"></a>
+		<div class="dropdown">+7 (3462) 555 308</div>
+			<ul class="dropdown-content" id="dropdown">
+				<li>+7 (3462) 555 308</li>
+				<li>+7 (3462) 555 308</li>
+				<li>+7 (3462) 555 308</li>
+			</ul>
+		<button class="bluebtn callme">Перезвоните мне</button>
 		<h1>СВАРОЧНОЕ ОБОРУДОВАНИЕ СЕВЕРСБЫТ</h1>
-		<h2>от официального представителя<span>ТМ "СВАРОГ"</span></h2>
+		<h2>от официального представителя <span>ТМ "СВАРОГ"</span></h2>
 		<hr>
 		<p>Одеваем сварщиков лучшим снаряжением и вооружаем современным оборудованием</p>
 		<div class="container col-md-6">
@@ -69,6 +72,7 @@
 <footer>
 	
 </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
