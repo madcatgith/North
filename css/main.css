@@ -1,19 +1,13 @@
-#header{
+#header{px
 	/*background-image: url();
-	background-repeat: no-repeat;*/
-	font-family: muller light;
+	background-repeat: no-repeat;*/	
 	background-color: black;	
 	min-height: 960px
 }
 #header .container{
-	width: 1182px;
+	width: 61%;
 	margin: auto;
 	padding: 48px 0 0 0;
-}
-.logo{
-	padding: 0 150px 0 0;
-	display: block;
-	float: left;
 }
 #header nav{
 	display: block;
@@ -21,15 +15,22 @@
 }
 #header nav li{
 	display: inline;
-	padding: 0 25px 0 0;
-	font-family: muller light;
+	padding: 0 25px 0 0;	
 	font-size: 16px;
 	color: #ffffff;
 }
-#header nav li a{
-	font-family: muller light;
+#header nav li a{	
 	font-size: 16px;
 	color: #ffffff;
+}
+.logo{
+	padding: 0 150px 0 0;
+	display: block;
+	float: left;
+}
+.container{
+	width: 1182px;
+	overflow: hidden;
 }
 .search{
 	width: 68px;
@@ -40,4 +41,80 @@
 	margin: 0 35px 0 33px;
 	text-align: center;
 	font-size: 20px;
+}
+#news_list{
+	padding: 91px 0 0 0;
+	background-color: #f3f6f9;
+}
+.news_item{
+	overflow: hidden;
+	border-bottom: 1px solid #d5d5d5;
+	background-color: #fff;
+	width: 781px;
+}
+#news_list .col-md-8{
+	background-color: white;
+	overflow: hidden;
+}
+#news_list h1{
+	padding: 30px 0 0 65px;
+	font-weight: 700;
+	font-size: 22px;
+}
+#news_list p{
+	padding: 13px 0 40px 65px;
+	font-weight: 300;
+	font-size: 18px;
+	color: #505050;
+}
+#news_list ul li:nth-child(1){
+	list-style-type: none;
+	font-weight: 700;
+	font-size: 22px;
+	padding-bottom: 25px;
+	text-decoration: none;
+}
+#news_list ul li{
+	list-style-type: none;
+	text-decoration: underline;
+	color: black;
+}
+#news_list ul li a{
+	color: black;
+	font-size: 18px;
+	font-weight: 300;
+}
+.news_item_footer{
+	width: 781px;
+	background-color: #fff;
+}
+.news_item_footer div{
+	width: 98px;
+	float: left;
+	border-right: 1px solid #dbdbdb;
+	font-weight: 300;
+	font-size: 16px;
+	color: #d6d6d6;
+	margin: 45px 0 45px 63px;
+}
+.news_item_footer span{
+	display: block;
+	float: left;
+	font-weight: 300;
+	font-size: 16px;
+	color: #d6d6d6;
+	padding: 45px 0 45px 20px;
+	}
+.news_item_footer button{
+	display: block;
+	float: right;
+	width: 143px;
+	font-size: 18px;
+	font-weight: 400;
+	border-radius: 5px;
+	background-color: #639cd7;
+	color: white;
+	border: 0;
+	line-height: 2.1;
+	margin: 36px 45px 35px 0;
 }
