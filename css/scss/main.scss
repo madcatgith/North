@@ -1,0 +1,152 @@
+//Mixins
+@import 'font';
+
+/*Normal*/
+@include font-face(Muller,"../fonts/Muller/MullerThin",100,normal,otf);
+@include font-face(Muller,"../fonts/Muller/MullerUltraLight",200,normal,otf);
+@include font-face(Muller,"../fonts/Muller/MullerLight",300,normal,otf);
+@include font-face(Muller,"../fonts/Muller/MullerRegular",400,normal,otf);
+@include font-face(Muller,"../fonts/Muller/MullerMedium",500,normal,otf);
+@include font-face(Muller,"../fonts/Muller/MullerHairline",600,normal,otf);
+@include font-face(Muller,"../fonts/Muller/MullerBold",700,normal,otf);
+@include font-face(Muller,"../fonts/Muller/MullerExtraBold",800,normal,otf);
+@include font-face(Muller,"../fonts/Muller/MullerBlack",900,normal,otf);
+
+/*Italic*/
+@include font-face(Muller,"../fonts/Muller/MullerThinItalic",100,italic,otf);
+@include font-face(Muller,"../fonts/Muller/MullerUltraLightItalic",200,italic,otf);
+@include font-face(Muller,"../fonts/Muller/MullerLightItalic",300,italic,otf);
+@include font-face(Muller,"../fonts/Muller/MullerRegularItalic",400,italic,otf);
+@include font-face(Muller,"../fonts/Muller/MullerMediumItalic",500,italic,otf);
+@include font-face(Muller,"../fonts/Muller/MullerHairlineItalic",600,italic,otf);
+@include font-face(Muller,"../fonts/Muller/MullerBoldItalic",700,italic,otf);
+@include font-face(Muller,"../fonts/Muller/MullerExtraBoldItalic",800,italic,otf);
+@include font-face(Muller,"../fonts/Muller/MullerExtraBlackItalic",900,italic,otf);
+
+
+
+body{
+	font-family:"Muller",sans-serif;
+	font-weight:400;
+	
+}
+/*Header Main*/
+#header{
+	background-image: url("../img/bg-header.png");
+	background-repeat: no-repeat;
+	min-height: 960px;
+	color:#fff;
+}
+#header .container{
+	width: 1182px;
+	margin: auto;
+	padding: 48px 0 0 0;
+}
+.logo{
+	padding: 0 150px 0 0;
+	display: block;
+	float: left;
+}
+#header nav{
+	display: block;
+	float: left;
+	border-right:1px solid #fff;
+	padding:4px 0;
+}
+#header nav li{
+	display: inline;
+	padding: 0 25px 0 0;
+
+}
+#header nav li a{
+	font-size: 16px;
+	color: #ffffff;
+	font-weight:300;
+	line-height:25px;
+}
+
+.bluebtn{
+	color:#fff;
+	background-color:#639cd7;
+	border-radius:3px;
+	border:none;
+	line-height:25px;
+	padding-bottom:7px;
+	padding-top:6px;
+	font-size:14px;
+	font-weight:400;
+	padding:6px 19px 4px 19px;
+}
+
+#header{
+	.dropdown{
+		width:182px;
+		font-size: 16px;
+		font-weight:400;
+		color:#fff;
+		background-image:url("../img/icons/dropdown.png");
+		background-position:right;
+		background-repeat:no-repeat;
+		overflow: hidden;
+		cursor: pointer;
+		float: left;
+		line-height: 25px;
+		padding:4px 0;
+		border-left:1px solid #fff;
+		padding-left:32px;
+		margin-right: 20px;
+	}
+
+	.dropdown-content{
+		//display: none;
+	}
+
+	.dropdown-content{
+		list-style-type: none;
+		display: none;
+		width:152px;
+		position:absolute;
+		color:#fff;
+		font-size: 16px;
+		font-weight: 400;
+		margin:0;
+		padding:0;
+		right:332px;
+		top:73px;
+	}
+
+	.search{
+	    width: 18px;
+	    height: 25px;
+	    margin: 4px 20px 4px 25px;
+		float: left;
+		text-align: center;
+		font-size: 20px;
+		background-image: url("../img/icons/search.png");
+		background-repeat:no-repeat;
+	}
+
+	h1,h2{
+		text-align: center;
+	}
+
+	h1{
+		font-size: 54px;
+		line-height: 54px;
+		font-weight: 800;
+		margin-top: 242px;
+	}
+
+	h2{
+		margin-top: 17px;
+		font-size: 30px;
+		font-weight: 700;
+		line-height: 30px;
+		letter-spacing: 0.06em;
+		
+		span{
+			color:#639cd7;
+		}
+	}
+}
+
