@@ -587,5 +587,134 @@ header{
 
 #hits{
 	background-color:#f3f6f9;
-	
+	h1{
+		margin:144px 0 67px;
+	}
+	.row{
+		margin-bottom: 112px;
+		.product{
+			background-color:#fff;
+			text-align:center;
+			border-radius:3px;
+			box-shadow:0 10px 46px rgba(0,0,0,0.22);
+			//height: 625px;
+			width:380px;
+			margin:0 auto;
+			img{
+				margin:26px 0;
+				height: 293px;
+			}
+			h2{
+				font-size: 18px;
+				line-height: 25px;
+				font-weight: 400;
+				margin-top: 0;
+				text-align: left;
+				margin:0 58px;
+				color: #000;
+			}
+
+			p{
+				color:#86b751;
+				line-height: 25px;
+				font-weight: 700;
+				font-size: 28px;
+				margin-top: 37px;
+			}
+			.buttonblock{
+				margin-top: 60px;
+				border-top:1px solid rgba(0,0,0,0.1);
+			}
+
+			.bluebtn,.whitebtn{
+				margin: 36px 0;
+				padding:12px 0 8px;
+				width:150px;
+				font-size: 18px;
+				line-height: 25px;
+			}
+
+			.bluebtn{
+				margin-left:19px;
+			}
+
+			.whitebtn{
+				padding:11px 0 7px;
+				border:1px solid rgba(0,0,0,0.1);
+				color:#565656;
+			}
+		}
+	}
+}
+
+#special{
+	h1{
+		margin:129px 0;
+	}
+	.container{
+		margin-bottom: 124px;
+	}
+	.product{
+		border-radius:3px;
+		box-shadow:0 24px 79px rgba(0,0,0,0.07);
+		margin-left: 6px;
+		padding-left:0;
+		padding-right:0;
+		.offer{
+			font-size: 15px;
+			line-height: 25px;
+			font-weight: 500;
+			color:#fff;
+			width:117px;
+			border-radius:3px;
+			text-align: center;
+			padding-top:3px;
+			margin:46px 0 24px;
+		}
+
+		img{
+			margin: 23px 0 0 20px;
+		} 
+
+		.offer.dayoffer{
+			background-color:#f1ad41;
+		}
+
+		.offer.bestprice{
+			background-color:#f1416f;
+		}
+
+		.oldprice{
+			font-size: 18px;
+			color:#a1a1a1;
+			font-weight: 500;
+			line-height: 25px;
+			min-height: 25px;
+			text-decoration: line-through;
+		}
+
+		.price{
+			color:#86b751;
+			line-height: 25px;
+			font-weight: 700;
+			font-size: 30px;
+			//margin-top: 37px;
+		}
+
+		h2{
+			font-size: 18px;
+			line-height: 25px;
+			font-weight: 400;
+			color: #000;
+			margin-bottom: 57px;
+			width:206px;
+			text-align: left;
+		}
+	}
+
+	.product:first-child{
+		margin-left: 0;
+		margin-right: 6px;
+	}
+
 }
