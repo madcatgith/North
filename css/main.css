@@ -439,3 +439,39 @@ footer nav li a{
 	background-color: #fff;
 	padding: 9px 27px 7px 27px;
 }
+#cofe{	
+	background-image: url("../img/bg-contacts.png"); 
+}
+#cofe .container{
+	padding-top: 132px;
+	padding-bottom: 116px;
+}
+#cofe .container span{
+	font-size: 23px;
+	line-height: 39px;
+	letter-spacing: 0.02em;
+	color: #fff;
+	font-weight: 700;
+	float: left;
+	padding-right: 76px;
+}
+#cofe .container span::after{
+	content: '';
+	display: block;
+	background-color: #639cd7;
+	width: 55px;
+	height: 5px;
+	margin-top: 9px;
+}
+#cofe .container button{
+	width: 223px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 25px;
+	color: #fff;
+	background-color: #639cd7;
+	border: 0;
+	border-radius: 5px;
+	padding: 8px 92px 4px 102px;
+	/*box-shadow: 0 20px 4px -4px rgba(24, 135, 249, 0.44);*/
+}
