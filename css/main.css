@@ -1,4 +1,4 @@
-#header{px
+#header{
 	/*background-image: url();
 	background-repeat: no-repeat;*/	
 	background-color: black;	
@@ -29,7 +29,7 @@
 	float: left;
 }
 .container{
-	width: 1182px;
+	width: 1186px;
 	overflow: hidden;
 }
 .search{
@@ -270,6 +270,9 @@ footer img{
 }
 footer nav li a{
 	color: #6e7075;
+	font-size: 16px;
+	line-height: 25px;
+	font-weight: 300;
 }
 .container-mini{
 	width: 20%;
@@ -511,7 +514,7 @@ footer nav li a{
 	padding-top: 36px;
 	display: block;
 	float: left;
-	padding-bottom: 138px;
+	padding-bottom: 129px;
 }
 #news-detail .news_detail_pgn button{
 	display: block;
@@ -556,4 +559,119 @@ footer nav li a{
 }
 #news-detail{
 	border-bottom: 1px solid #d2d2d2;
+}
+#about_1 .container{
+	padding-top: 116px;
+}
+#about_1 .container img{
+	display: block;
+	float: left;
+	border-radius: 5px;
+	margin-right: 102px;
+	margin-bottom: 124px;
+}
+#about_1 .container h1{
+ 	padding: 17px 0 23px 0;
+ 	line-height: 38px;
+ 	letter-spacing: 0;
+ 	text-transform: none;
+}
+#about_1 .container p{
+	font-size: 18px;
+	line-height: 38px;
+	font-weight: 300;
+	color: #000;
+}
+#about_1 .container h1::after{
+    content: '';
+    display: block;
+    background-color: #639cd7;
+    width: 55px;
+    height: 5px;
+    margin-top: 9px;
+    margin-left: 482px;
+}
+#about_2{
+	background-image: url(../pic/about/about-bg.png);
+}
+#about_2 .container h1{
+	text-align: center;
+	padding-top: 103px;
+	margin-bottom: 100px;
+}
+#about_2 .container h1::after{
+	content: '';
+	display: block;
+	background-color: #639cd7;
+	width: 55px;
+	height: 5px;	
+	margin: 28px auto;
+}
+#about_2 .col-md-4{
+	min-height: 420px;
+	margin-bottom: 40px;
+}
+.about_icons .icon_about{
+	width: 158px;
+	height: 160px;
+	background-color: #639cd7;
+	content: '';
+	display: block;
+	margin-left: 95px;
+	transform: rotate(45deg);
+	border-radius: 40px;
+	margin-bottom: 60px;
+}
+.icon_about i{
+	display: block;
+	margin: auto;
+	width: 48px;
+	height: 48px;
+	background-repeat: no-repeat;
+	transform: rotate(-45deg);
+	position: absolute;
+	top: 55px;
+	left: 55px;
+}
+.icon_about .icon_1{
+	background-image: url("../img/icons/discount.png");
+}
+.icon_about .icon_2{
+	background-image: url("../img/icons/user2.png");
+}
+.icon_about .icon_3{
+	background-image: url("../img/icons/like.png");
+}
+.icon_about .icon_4{
+	background-image: url("../img/icons/bookmark.png");
+}
+.icon_about .icon_5{
+	background-image: url("../img/icons/app.png");
+}
+.icon_about .icon_6{
+	background-image: url("../img/icons/network.png");
+}
+.about_text{
+	color: #2a3237;
+	line-height: 38px;
+	font-size: 18px;
+	text-align: center;	
+}
+.text1{
+	width: 370px;
+}
+.text2{
+	width: 340px;
+}
+.text3{
+	width: 304px;
+}
+.text4{
+	width: 356px;
+}
+.text5{
+	width: 376px;
+}
+.text6{
+	width: 326px;
 }
