@@ -195,7 +195,7 @@ h1:after {
   height: 5px;
   margin-top: 9px; }
 
-header .dropdown {
+header .dropdown_custom {
   width: 182px;
   font-size: 16px;
   font-weight: 400;
@@ -211,6 +211,12 @@ header .dropdown {
   border-left: 1px solid #fff;
   padding-left: 32px;
   margin-right: 20px; }
+header .dropdown-menu {
+  top: 30px;
+  left: auto;
+  right: 180px;
+  font-size: 16px;
+  font-weight: 400; }
 header .dropdown-content {
   list-style-type: none;
   display: none;
@@ -435,7 +441,9 @@ header .buttonblock {
       margin-top: 5px; }
   #attachment form {
     margin-bottom: 121px;
-    margin-top: 64px; }
+    margin-top: 64px;
+    height: 39px;
+    display: inline-block; }
   #attachment input[type=file] {
     display: none; }
   #attachment input[type=text] {
@@ -470,7 +478,9 @@ header .buttonblock {
     background-position: center;
     margin-left: -3px;
     border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px; }
+    border-bottom-right-radius: 3px;
+    display: block;
+    float: right; }
 
 #work_adv .container h1 {
   margin-bottom: 77px;
@@ -586,7 +596,7 @@ header .buttonblock {
 #special h1 {
   margin: 129px 0; }
 #special .container {
-  margin-bottom: 124px; }
+  padding-bottom: 124px; }
 #special .product {
   border-radius: 3px;
   box-shadow: 0 24px 79px rgba(0, 0, 0, 0.07);
@@ -715,5 +725,158 @@ footer.onmain .container li {
   font-weight: 300; }
 footer.onmain .container .logo_bottom {
   padding-left: 160px; }
+
+.products-list {
+  background-color: #f3f6f9; }
+  .products-list h1 {
+    margin-top: 16px;
+    margin-bottom: 84px; }
+  .products-list .container {
+    padding-top: 110px; }
+  .products-list .product {
+    border-radius: 3px;
+    box-shadow: 0 10px 81px rgba(0, 0, 0, 0.054);
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: 54px; }
+    .products-list .product img {
+      margin: 26px 0;
+      height: 293px; }
+    .products-list .product h2 {
+      font-size: 18px;
+      line-height: 25px;
+      font-weight: 400;
+      margin-top: 0;
+      text-align: left;
+      margin: 0 58px;
+      color: #000; }
+    .products-list .product p {
+      color: #86b751;
+      line-height: 25px;
+      font-weight: 700;
+      font-size: 28px;
+      margin-top: 37px;
+      text-align: left;
+      padding-left: 60px; }
+    .products-list .product .buttonblock {
+      margin-top: 60px;
+      border-top: 1px solid rgba(0, 0, 0, 0.1); }
+    .products-list .product .bluebtn, .products-list .product .whitebtn {
+      margin: 36px 0;
+      padding: 12px 0 8px;
+      width: 150px;
+      font-size: 18px;
+      line-height: 25px; }
+    .products-list .product .bluebtn {
+      margin-left: 19px; }
+    .products-list .product .whitebtn {
+      padding: 11px 0 7px;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      color: #565656; }
+  .products-list .right_block {
+    padding-left: 70px; }
+    .products-list .right_block .select {
+      margin-bottom: 84px; }
+    .products-list .right_block .dropdown-menu {
+      width: 300px; }
+    .products-list .right_block .dropdown-menu > li > a {
+      font-size: 18px;
+      line-height: 21px;
+      font-weight: 700;
+      color: #000;
+      padding: 10px 20px;
+      text-align: center; }
+    .products-list .right_block .dropdown-menu > li > a:focus, .products-list .right_block .dropdown-menu > li > a:hover {
+      background-color: #639cd7;
+      background-image: none;
+      color: #fff; }
+    .products-list .right_block p {
+      font-size: 18px;
+      line-height: 20px; }
+    .products-list .right_block a {
+      text-decoration: none;
+      color: #000; }
+    .products-list .right_block a:hover {
+      text-decoration: none;
+      color: #86b751;
+      font-weight: 700; }
+    .products-list .right_block .subgroup {
+      display: block;
+      padding-left: 0;
+      color: #5d5d5d;
+      font-size: 12px;
+      line-height: 20px;
+      margin: 24px 0 24px 18px;
+      vertical-align: middle; }
+      .products-list .right_block .subgroup a {
+        text-decoration: none;
+        color: #5d5d5d; }
+      .products-list .right_block .subgroup li {
+        margin-bottom: 12px; }
+      .products-list .right_block .subgroup span {
+        font-size: 18px; }
+      .products-list .right_block .subgroup .active, .products-list .right_block .subgroup a:hover {
+        color: #86b751;
+        font-weight: 700;
+        font-size: 18px; }
+        .products-list .right_block .subgroup .active span, .products-list .right_block .subgroup a:hover span {
+          font-size: 18px; }
+    .products-list .right_block .hits {
+      width: 300px;
+      background-color: #fff;
+      border-radius: 3px;
+      text-align: center; }
+      .products-list .right_block .hits img {
+        margin-top: 24px; }
+      .products-list .right_block .hits a {
+        text-decoration: none;
+        color: #fff; }
+      .products-list .right_block .hits a:hover {
+        text-decoration: none;
+        color: #fff; }
+      .products-list .right_block .hits h2 {
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 400;
+        text-align: left;
+        display: block;
+        margin-left: 25px; }
+      .products-list .right_block .hits .bluebtn {
+        display: block;
+        width: 300px;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 25px;
+        letter-spacing: 0.04em;
+        background-color: #86b751;
+        margin-top: 28px;
+        padding: 11px 0 10px; }
+        .products-list .right_block .hits .bluebtn span {
+          font-size: 14px;
+          text-decoration: line-through; }
+
+.select {
+  text-decoration: none;
+  display: block;
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 24px 38px 21px;
+  width: 300px;
+  border: none; }
+  .select span {
+    display: block;
+    background-image: url("../img/icons/next.png");
+    background-repeat: no-repeat;
+    height: 9px;
+    width: 17px;
+    float: right;
+    margin-top: 6px; }
 
 /*# sourceMappingURL=add.css.map */
