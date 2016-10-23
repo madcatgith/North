@@ -117,7 +117,7 @@
 .top_menu nav li{
 	color: #2e313a;
 }
-.top_menu .dropdown{
+.top_menu .dropdown_custom{
 	color: #2e313a;
 	border-left: 1px solid #2e313a;
 	background-image: url("../img/icons/down-arrow_black.png");
