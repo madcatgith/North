@@ -310,7 +310,7 @@ footer nav li a{
 	line-height: 25px;
 	font-weight: 700;
 }
-.container-mini span{
+/*.container-mini */.sosiality /*span*/{
 	font-size: 18px;
 	line-height: 30px;
 	color: #34404d;
@@ -318,7 +318,7 @@ footer nav li a{
 	display: block;
 	width: 170px;
 }
-.container-mini span i{
+/*.container-mini*/ /*span*/ .sosiality i{
 	width: 30px;
 	height: 30px;
 	display: block;
@@ -328,18 +328,18 @@ footer nav li a{
 	margin-top: 5px;
 	margin-right: 9px;
 }
-.container-mini span .vk{
+/*.container-mini span*/ .sosiality .vk{
 	background-image: url("../img/icons/vk.png");
 }
 
-.container-mini span .you{
+/*.container-mini span*/.sosiality .you{
 	background-image: url("../img/icons/youtube.png");
 }
 
-.container-mini span .f{
+/*.container-mini span*/.sosiality .f{
 	background-image: url("../img/icons/facebook.png");
 }
-.container-mini .sosiality{
+/*.container-mini*/ .sosiality{
 	width: 44px;
 	height: 44px;
 	float: left;
@@ -347,7 +347,7 @@ footer nav li a{
 	margin-right: 17px;
 	border-radius: 5px;
 }
-.container-mini .sosiality i{
+/*.container-mini*/ .sosiality i{
 	float: left;
 	margin-top: 7px;
 	margin-right: 0;
