@@ -475,3 +475,17 @@ footer nav li a{
 	padding: 8px 92px 4px 102px;
 	/*box-shadow: 0 20px 4px -4px rgba(24, 135, 249, 0.44);*/
 }
+#news-detail .container{
+	padding: 90px 0 0 0;
+}
+#news-detail .container img{
+	display: block;
+	float: left;
+}
+#news-detail .container .news_item_footer div{	
+	font-size: 25px;
+	/*margin: 40px 0 45px 63px;*/
+}
+#news-detail .container .news_item_footer span{	
+	font-size: 25px;
+}
