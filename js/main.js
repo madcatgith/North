@@ -4,30 +4,35 @@ $(document).ready(function(){
 		$('#file').click();
 	})
 	$('.center').slick({
-	  centerMode: true,
-	  centerPadding: '60px',
- 	 slidesToShow: 2,
- 	 dots: true,
- 	 arrows: false,
-	  responsive: [
- 	   {
- 	     breakpoint: 768,
- 	     settings: {
-  	      arrows: false,
-  	      centerMode: true,
-  	      centerPadding: '40px',
-  	      slidesToShow: 2
-  	    }
-  	  },
-  	  {
-  	    breakpoint: 480,
-  	    settings: {
-  	      arrows: false,
-  	      centerMode: true,
-  	      centerPadding: '40px',
-  	      slidesToShow: 2
-  	    }
- 	   }
-	  ]
-	});
+  centerMode: true,
+  centerPadding: '60px',
+  slidesToShow: 1,
+  variableWidth: true,
+  arrows: false,
+  dots: true,
+  responsive: [
+    {
+      breakpoint: 1200,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '140px',
+        slidesToShow: 1,
+        dots: true,
+        variableWidth: true
+      }
+    },
+    {
+      breakpoint: 900,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '140px',
+        slidesToShow: 1,
+        dots: true,
+        variableWidth: true
+      }
+    }
+  ]
+});
 });
