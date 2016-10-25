@@ -3,6 +3,7 @@ $(document).ready(function(){
 		e.preventDefault();
 		$('#file').click();
 	})
+<<<<<<< HEAD
 	/*$('.center').slick({
 	  centerMode: true,
 	  centerPadding: '60px',
@@ -40,4 +41,38 @@ $(document).ready(function(){
   		focusOnSelect: true,
   		arrows:false
 	});
+=======
+	$('.center').slick({
+  centerMode: true,
+  centerPadding: '60px',
+  slidesToShow: 1,
+  variableWidth: true,
+  arrows: false,
+  dots: true,
+  responsive: [
+    {
+      breakpoint: 1200,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '140px',
+        slidesToShow: 1,
+        dots: true,
+        variableWidth: true
+      }
+    },
+    {
+      breakpoint: 900,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '140px',
+        slidesToShow: 1,
+        dots: true,
+        variableWidth: true
+      }
+    }
+  ]
+});
+>>>>>>> origin/master
 });
