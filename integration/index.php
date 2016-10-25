@@ -1,55 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>	
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link rel="stylesheet" type="text/css" href="css/add.css">
-</head>
-<body>
-<!--top section-->
-	<header>
-	<div class="container">
-		<img class="logo" src="img/LOGO.png">
-		<nav>
-			<li><a href="">Продукция</a></li>
-			<li><a href="">Новости</a></li>
-			<li><a href="">О нас</a></li>
-			<li><a href="">Контакты</a></li>				
-		</nav>
-		<a href="" class="search"></a>
-		<div class="dropdown">
-			<div class="dropdown_custom" type="button" id="header_tels" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">+7 (3462) 555 308</div>
-				<ul class="dropdown-menu" aria-labelledby="header_tels">
-					<li><a href="#">+7 (3462) 555 308</a></li>
-					<li><a href="#">+7 (3462) 555 308</a></li>
-					<li><a href="#">+7 (3462) 555 308</a></li>
-				</ul>
-		</div>
-		<button class="bluebtn callme">Перезвоните мне</button>
-		<h1>СВАРОЧНОЕ ОБОРУДОВАНИЕ СЕВЕРСБЫТ</h1>
-		<h2>от официального представителя <span>ТМ "СВАРОГ"</span></h2>
-		<hr>
-		<p>Одеваем сварщиков лучшим снаряжением и вооружаем современным оборудованием</p>
-		<div class="row">
-			<div class="col-md-3">
-				
-			</div>
-			<div class="col-md-6 buttonblock">
-				<button class="videobtn whitebtn">Видео о нас<i></i></button>
-				<button class="mainright bluebtn">Сделать расчет</button>
-			</div>
-			<div class="col-md-3">
-				
-			</div>
-		</div>
-
-		</div>
-	</header>
-<!--end top section-->
-
+<?php get_header(); ?>
 <section id="underhead">
 	<div class="container">
 		<div class="row">
@@ -358,19 +307,4 @@
 		</div>
 	</div>
 </section>
-
-<footer class="onmain">
-	<div class="container">		
-		<nav>
-			<li><a href="">Согласие с рассылкой</a></li>
-			<li><a href="">Отказ от ответственности</a></li>
-			<li><a href="">Политика конфиденциальности</a></li>						
-		</nav>
-		<img class="logo_bottom" src="img/icons/logo_bottom_black.png">
-	</div>	
-</footer>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-</body>
-</html>
+<?php get_footer(); ?>
